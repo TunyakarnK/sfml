@@ -8,7 +8,7 @@ int main()
 
 	Menu menu(window.getSize().x, window.getSize().y);
 	sf::Texture bg;
-	if(bg.loadFromFile("mainn.png"))
+	if(bg.loadFromFile("picture/mainn.png"))
 	{}
 	sf::Sprite background(bg);
 	while (window.isOpen())
