@@ -3,7 +3,7 @@
 
 Menu::Menu(float width, float height)
 {
-	if (!font.loadFromFile("TheWildBreathOfZelda-15Lv.ttf"))
+	if (!font.loadFromFile("font/TheWildBreathOfZelda-15Lv.ttf"))
 	{
 		// handle error
 	}
